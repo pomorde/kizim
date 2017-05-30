@@ -1,0 +1,118 @@
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    width: 787px;
+    /* Ширина элемента в пикселах */
+    padding: 15px;
+    /* Поля вокруг текста */
+    margin: center;
+    /* Выравниваем по центру */
+    background: #ffffff;
+    /* Цвет фона */
+}
+
+.content {
+    width: 760px;
+    /* Ширина элемента в пикселах */
+    height: 25;
+    padding: 10px;
+    /* Поля вокруг текста */
+    margin: center;
+    /* Выравниваем по центру */
+    background: #ffffff;
+    /* Цвет фона */
+}
+
+.header {
+    width: 760px;
+    /* Ширина элемента в пикселах */
+    padding: px;
+    /* Поля вокруг текста */
+    margin: center;
+    /* Выравниваем по центру */
+    background: #ffffff;
+    /* Цвет фона */
+}
+
+.footer {
+    width: 770px;
+    /* Ширина элемента в пикселах */
+    padding: 10px;
+    /* Поля вокруг текста */
+    margin: center;
+    /* Выравниваем по центру */
+    background: #ffffff;
+    /* Цвет фона */
+}
+
+.active {
+    background: #ffffff;
+}
+
+TABLE {
+    border-collapse: collapse;
+    /* Убираем двойные линии между ячейками */
+}
+
+TD,
+TH {
+    padding: 3px;
+    /* Поля вокруг содержимого таблицы */
+    border: 3px solid black;
+    /* Параметры рамки */
+}
+
+a.button25 {
+    position: relative;
+    display: inline-block;
+    width: 20em;
+    height: 2.5em;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #F64C2B;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+}
+
+a.button25:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+}
+
+.catalog-generation__card {
+    background-image: url(images/959panigale.jpg)
+}
+
+.kris {
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.kris fieldset {
+    border: 1px soild #ccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+.kris input[type="submit"] {
+    border: 1px dashed #ccc;
+    padding: 3px 5px;
+    background=#fff;
+}
+
+.kris input[type="submit"]:hover {
+    background #ccc;
+    border-botton
+}
